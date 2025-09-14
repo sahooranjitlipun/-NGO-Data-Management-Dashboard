@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NGO Data Management Dashboard</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <h1>NGO Data Management Dashboard</h1>
+  </header>
+
+  <main>
+    <section class="stats">
+      <div class="card">
+        <h3>Total NGOs</h3>
+        <p id="ngo-count">0</p>
+      </div>
+      <div class="card">
+        <h3>Total Projects</h3>
+        <p id="project-count">0</p>
+      </div>
+      <div class="card">
+        <h3>Volunteers</h3>
+        <p id="volunteer-count">0</p>
+      </div>
+    </section>
+
+    <section class="table-section">
+      <h2>NGO List</h2>
+      <table id="ngo-table">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Location</th>
+            <th>Focus Area</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- rows will be added by JS -->
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 NGO Dashboard</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
